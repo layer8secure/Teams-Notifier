@@ -27,7 +27,7 @@ https://dev.outlook.com/connectors/reference
 Built to allow for Empire to send a notification to Microsoft Teams upon successful agent connection.
 
 ### Author
-- [Matthew Nickerson](https://github.com/mwnickerson) - Security Consultant at [Layer 8 Security](https://layer8security.com)
+- [Matthew Nickerson](https://mwnickerson.com) - Security Consultant at [Layer 8 Security](https://layer8security.com)
 
 ### Roadmap
 - Add additional notifications for different agent events (disconnect, task compeletion, etc)
