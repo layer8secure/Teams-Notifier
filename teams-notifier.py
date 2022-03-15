@@ -70,7 +70,7 @@ class Plugin(Plugin):
             hooks.unregister_hook('teams-notifier', hooks.AFTER_AGENT_CHECKIN_HOOK)
             self.main_menu.plugin_socketio_messages(self.info[0]['Name'], f'[*] Teams Notifier Plugin turned off')
         else:
-            self.options['webhook_url']['Value'] = command['webhook_url']
+            self.options['teams_webhook']['Value'] = command['teams_webhook']
             hooks.register_hook(hooks.AFTER_AGENT_CHECKIN_HOOK, 'teams-notifier', self.teams_notify)
             self.main_menu.plugin_socketio_message(self.info[0]['Name'], f'[*]Teams Notifier turned on')
 
